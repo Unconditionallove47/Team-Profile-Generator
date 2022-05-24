@@ -20,8 +20,9 @@ function teamAdd(){
             choices: ['Add Engineer', 'Add Intern', 'Complete your team!'],
             name: "Team"
         }
+        //TEAM NEEDS TO BE CAPITAL TO FUNCTION REMEMBER
     ]).then(answers => {
-        switch (answers.team) {
+        switch (answers.Team) {
             case 'Add Engineer':
                 newEngineer();
                 break;
